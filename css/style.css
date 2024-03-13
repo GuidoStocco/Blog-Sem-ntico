@@ -36,3 +36,37 @@ a:hover{
     display: flex; 
     gap: 1rem;
 }
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    padding: 2.5rem;
+}
+
+.posts-container{
+    flex: 3 1 0;
+}
+
+.post{
+    margin-bottom: 2.5rem;
+}
+
+.post img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.title,
+.description{
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.post p{
+    margin-bottom: 1rem;
+}
